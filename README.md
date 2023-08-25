@@ -22,7 +22,7 @@ To install Termux Helper, follow these steps:
 3. That's it! You're all set to explore and utilize the power of Termux Helper.
    
 ```bash
-pkg install git && cd $PREFIX && git clone https://github.com/Solacexcv/TMHelper/ && cd TMHelper && chmod +x TMHelper.sh && bash install.sh
+pkg install git && cd $PREFIX && git clone https://github.com/Solacexcv/TMHelper/ && cd TMHelper && chmod +x TMHelper.sh && chmod +x install.sh && bash install.sh
 ```
 ## Usage:
 Using Termux Helper is as straightforward as its installation. Simply open your Termux terminal and type termux-helper. You'll be presented with a user-friendly interface where you can select the category you're interested in and find the relevant commands right at your fingertips.
