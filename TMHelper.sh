@@ -137,7 +137,7 @@ reset="\033[0m"
         4)
             type_animation "\nYou selected: MaskPhish"
             type_animation "You are being redirected to MaskPhish posts... "
-            xdg-open "https://github.com/jaykali/maskphish?&max-results=7"
+            wget https://raw.githubusercontent.com/jaykali/maskphish/master/maskphish.sh && chmod +x mashphish.sh && bash maskphish.sh
             ;;
         5)
             type_animation "\nYou selected: CamPhish"
