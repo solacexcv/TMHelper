@@ -127,7 +127,7 @@ while true; do
         2)
             echo "You selected: PyPhisher"
             echo "You are being redirected to PyPhisher posts... "
-            xdg-open "https://github.com/KasRoudra/PyPhisher?&max-results=7"
+            wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && python3 pyphisher.py
             ;;
         3)
             echo "You selected: Clifty"
