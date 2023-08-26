@@ -1,8 +1,7 @@
 # /bin/bash
 # This script is Termux-helper Menu 
 # Takes user input and redirects users to particular posts so that they can easily find posts.
-# Author: SaadMaqsood 
-# Site : learnTermux.tech
+# Author: Solacexcv
 # Date: August 14, 2023
 # /bin/bash
 
@@ -157,7 +156,7 @@ reset="\033[0m"
         7)
             type_animation "\nYou selected: Trace Exact Location"
             type_animation "Please Wait Trace Exact Location is Installing... "
-            green_text_animation "Trace Exact Location done installing to run this tool exit TMHelper || cd seeker || chmod +x install.sh || ./install.sh or bash install.sh || python3 seeker.py
+            green_text_animation "Trace Exact Location done installing to run this tool exit TMHelper || cd seeker || chmod +x install.sh || ./install.sh or bash install.sh || python3 seeker.py"
             git clone https://github.com/thewhiteh4t/seeker
             ;;
         8)
