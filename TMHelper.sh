@@ -170,7 +170,7 @@ reset="\033[0m"
         10)
             type_animation "\nYou selected: BruteForce"
             type_animation "Please Wait BruteForce is Installing... "
-            termux-setup-storage && pkg update && pkg upgrade && pkg install python && pkg install git && pkg install ruby && wget https://raw.githubusercontent.com/STLP-TEAM/FB-Brute/main/brute.py && pip install request && pip install mechanize && python brute.py
+            termux-setup-storage && pkg update && pkg upgrade && pkg install python && pkg install git && pkg install ruby && wget https://raw.githubusercontent.com/STLP-TEAM/FB-Brute/main/brute.py && pip install requests && pip install mechanize && python brute.py
             ;;
         11)
             type_animation "\nYou selected: Tool-X"
