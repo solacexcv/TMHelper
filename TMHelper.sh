@@ -132,7 +132,7 @@ red_bg="\033[41m"
             echo "You selected: Clifty"
             echo "You are being redirected to Clifty posts... "
             git clone https://github.com/Alygnt/Clifty
-            echo -e "${red_bg}${bold}Exit TMHelper and Open clifty directory and command chmod +x clifty.sh to run the tool command bash clifty.sh ${reset}"
+            echo -e "\n${red_bg}${bold}Exit TMHelper and Open clifty directory and command chmod +x clifty.sh to run the tool command bash clifty.sh${reset}\n"
             ;;
         4)
             echo "You selected: MaskPhish"
