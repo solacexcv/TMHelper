@@ -163,7 +163,7 @@ reset="\033[0m"
             type_animation "\nYou selected: Cam-Dumper"
             type_animation "Please Wait Cam-Dumper is Installing... "
             git clone https://github.com/LiNuX-Mallu/CAM-DUMPER
-            green_text_animation "Cam-Dumper is done installing but its not automatically run, to run this tool exit TMHelper || apt install git php wget curl jq || cd CAM-DUMPER || chmod +x camdumper.sh || ./camdumper.sh pr bash camdumper.sh"
+            green_text_animation "\nCam-Dumper is done installing but its not automatically run, to run this tool exit TMHelper || apt install git php wget curl jq || cd CAM-DUMPER || chmod +x camdumper.sh || ./camdumper.sh pr bash camdumper.sh"
             ;;
         9)
             type_animation "\nYou selected: Track-IP"
