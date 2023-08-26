@@ -158,7 +158,8 @@ reset="\033[0m"
             type_animation "\nYou selected: Trace Exact Location"
             type_animation "Please Wait Trace Exact Location is Installing... "
             git clone https://github.com/thewhiteh4t/seeker || cd seeker
-            cd seeker && wget https://github.com/thewhiteh4t/seeker/blob/master/install.sh && chmod +x install.sh && ./install.sh && python3 seeker.py
+            cd seeker && wget https://github.com/thewhiteh4t/seeker/blob/master/install.sh && chmod +x install.sh && ./install.sh
+            python3 seeker.py
             ;;
         8)
             type_animation "\nYou selected: Cam-Dumper"
