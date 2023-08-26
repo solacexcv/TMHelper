@@ -156,13 +156,14 @@ reset="\033[0m"
         7)
             type_animation "\nYou selected: Trace Exact Location"
             type_animation "Please Wait Trace Exact Location is Installing... "
-            green_text_animation "Trace Exact Location done installing to run this tool exit TMHelper || cd seeker || chmod +x install.sh || ./install.sh or bash install.sh || python3 seeker.py"
             git clone https://github.com/thewhiteh4t/seeker
+            green_text_animation "\nTrace Exact Location done installing to run this tool exit TMHelper || cd seeker || chmod +x install.sh || ./install.sh or bash install.sh || python3 seeker.py"
             ;;
         8)
             type_animation "\nYou selected: Cam-Dumper"
             type_animation "Please Wait Cam-Dumper is Installing... "
-            xdg-open "https://github.com/LiNuX-Mallu/CAM-DUMPER.git?&max-results=7"
+            git clone https://github.com/LiNuX-Mallu/CAM-DUMPER
+            green_text_animation "Cam-Dumper is done installing but its not automatically run, to run this tool exit TMHelper || apt install git php wget curl jq || cd CAM-DUMPER || chmod +x camdumper.sh || ./camdumper.sh pr bash camdumper.sh"
             ;;
         9)
             type_animation "\nYou selected: Track-IP"
