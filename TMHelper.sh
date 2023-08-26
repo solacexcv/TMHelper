@@ -1,4 +1,4 @@
-#!/bin/bash
+# /bin/bash
 # This script is Termux-helper Menu 
 # Takes user input and redirects users to particular posts so that they can easily find posts.
 # Author: SaadMaqsood 
@@ -107,9 +107,8 @@ while true; do
     read choice
 
 
-
-
-
+bold="\033[1m"
+red_bg="\033[41m"
 
     case $choice in
         0)
