@@ -109,6 +109,7 @@ while true; do
 
 bold="\033[1m"
 red_bg="\033[41m"
+reset="\033[0m"
 
     case $choice in
         0)
