@@ -133,7 +133,7 @@ while true; do
             echo "You selected: Clifty"
             echo "You are being redirected to Clifty posts... "
             git clone https://github.com/Alygnt/Clifty
-            echo "${red_bg}${bold} Exit TMHelper and Open clifty directory and command chmod +x clifty.sh to run the tool command bash clifty.sh ${reset}"
+            echo -e "${red_bg}${bold}Exit TMHelper and Open clifty directory and command chmod +x clifty.sh to run the tool command bash clifty.sh ${reset}"
             ;;
         4)
             echo "You selected: MaskPhish"
