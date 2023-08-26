@@ -6,6 +6,7 @@
 # Date: August 14, 2023
 # /bin/bash
 
+
 function type_animation() {
     local text="$1"
     local interval=0.000001
