@@ -121,21 +121,18 @@ reset="\033[0m"
             ;;
         1)
             echo "You selected: MaxPhisher"
-            echo "You are being redirected to MaxPhisher posts... "
-            clear
+            type_animation "Please Wait MaxPhisher is Installing... "
             wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py && python3 maxphisher.py
             ;;
         2)
             echo "You selected: PyPhisher"
-            echo "You are being redirected to PyPhisher posts... "
-            clear
+            type_animation "Please Wait PyPhisher is Installing... "
             wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && python3 pyphisher.py
             ;;
         3)
             echo "You selected: Clifty"
-            echo "You are being redirected to Clifty posts... "
+            type_animation "Please Wait Clifty is Installing"
             wget https://raw.githubusercontent.com/Alygnt/Clifty/main/clifty.sh && chmod +x clifty.sh && bash clifty.sh
-            echo -e "\n${red_bg}${bold}Exit TMHelper and Open clifty directory and command chmod +x clifty.sh to run the tool command bash clifty.sh${reset}\n"
             ;;
         4)
             echo "You selected: MaskPhish"
