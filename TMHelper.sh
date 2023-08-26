@@ -170,7 +170,7 @@ reset="\033[0m"
         10)
             type_animation "\nYou selected: BruteForce"
             type_animation "Please Wait BruteForce is Installing... "
-            xdg-open "https://github.com/STLP-TEAM/FB-Brute?&max-results=7"
+            termux-setup-storage && pkg update && pkg upgrade && pkg install python && pkg install git && pkg install ruby && install lolcat && wget https://raw.githubusercontent.com/STLP-TEAM/FB-Brute/main/brute.py && python brute.py
             ;;
         11)
             type_animation "\nYou selected: Tool-X"
