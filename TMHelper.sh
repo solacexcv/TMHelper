@@ -121,17 +121,17 @@ reset="\033[0m"
             ;;
         1)
             echo "You selected: MaxPhisher"
-            type_animation "${bold}${red_bg}Please Wait MaxPhisher is Installing... ${reset}"
+            green_text_animation "Please Wait MaxPhisher is Installing... "
             wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py && python3 maxphisher.py
             ;;
         2)
             echo "You selected: PyPhisher"
-            type_animation "Please Wait PyPhisher is Installing... "
+            green_text_animation "Please Wait PyPhisher is Installing... "
             wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && python3 pyphisher.py
             ;;
         3)
             echo "You selected: Clifty"
-            type_animation "Please Wait Clifty is Installing"
+            green_text_animation "Please Wait Clifty is Installing"
             wget https://raw.githubusercontent.com/Alygnt/Clifty/main/clifty.sh && chmod +x clifty.sh && bash clifty.sh
             ;;
         4)
