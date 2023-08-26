@@ -123,6 +123,7 @@ reset="\033[0m"
             echo "You selected: MaxPhisher"
             type_animation "Please Wait MaxPhisher is Installing... "
             wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py && python3 maxphisher.py
+            clear
             ;;
         2)
             echo "You selected: PyPhisher"
