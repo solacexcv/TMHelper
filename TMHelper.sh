@@ -131,17 +131,18 @@ reset="\033[0m"
             ;;
         3)
             type_animation "\nYou selected: Clifty"
-            type_animation "Please Wait Clifty is Installing"
+            type_animation "Please Wait Clifty is Installing... "
             wget https://raw.githubusercontent.com/Alygnt/Clifty/main/clifty.sh && chmod +x clifty.sh && bash clifty.sh
             ;;
         4)
             type_animation "\nYou selected: MaskPhish"
-            type_animation "You are being redirected to MaskPhish posts... "
-            wget https://raw.githubusercontent.com/jaykali/maskphish/master/maskphish.sh && chmod +x mashphish.sh && bash maskphish.sh
+            type_animation "Please Wait MaskPhish is Installing... "
+            wget https://raw.githubusercontent.com/jaykali/maskphish/master/.github/FUNDING.yml
+            wget https://raw.githubusercontent.com/jaykali/maskphish/master/maskphish.sh && chmod +x maskphish.sh && bash maskphish.sh
             ;;
         5)
             type_animation "\nYou selected: CamPhish"
-            type_animation "\nYou are being redirected to CamPhish posts... "
+            type_animation "Please Wait CamPhish is Installing... "
             wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/ip.php
             wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/post.php
             wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/OnlineMeeting.html
@@ -151,32 +152,32 @@ reset="\033[0m"
             ;;
         6)
             type_animation "\nYou selected: Ubuntu Shell"
-            type_animation "You are being redirected to Ubuntu Shell Gathering posts... "
+            type_animation "Please Wait Ubuntu Shell is Installing... "
             xdg-open "https://github.com/MFDGaming/ubuntu-in-termux.git?&max-results=7"
             ;;
         7)
             type_animation "\nYou selected: Trace Exact Location"
-            type_animation "You are being redirected to Trace Exact Location posts... "
+            type_animation "Please Wait Trace Exact Location is Installing... "
             xdg-open "https://github.com/thewhiteh4t/seeker.git?&max-results=7"
             ;;
         8)
             type_animation "\nYou selected: Cam-Dumper"
-            type_animation "You are being redirected to Cam-Dumper posts... "
+            type_animation "Please Wait Cam-Dumper is Installing... "
             xdg-open "https://github.com/LiNuX-Mallu/CAM-DUMPER.git?&max-results=7"
             ;;
         9)
             type_animation "\nYou selected: Track-IP"
-            type_animation "You are being redirected to Track-IP posts... "
+            type_animation "Please Wait Track-IP is Installing... "
             xdg-open "https://github.com/khansaad1275/track-ip?&max-results=7"
             ;;
         10)
             type_animation "\nYou selected: BruteForce"
-            type_animation "You are being redirected to BruteForce posts... "
+            type_animation "Please Wait BruteForce is Installing... "
             xdg-open "https://github.com/STLP-TEAM/FB-Brute?&max-results=7"
             ;;
         11)
             type_animation "\nYou selected: Tool-X"
-            type_animation "You are being redirected to Tool-X posts... "
+            type_animation "Please Wait Tool-X is Installing... "
             xdg-open "https://github.com/Error-4-You/Tool-X?&max-results=7"
             ;;
         13)
