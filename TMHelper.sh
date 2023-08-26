@@ -134,7 +134,7 @@ reset="\033[0m"
         3)
             echo "You selected: Clifty"
             echo "You are being redirected to Clifty posts... "
-            wget https://raw.githubusercontent.com/Alygnt/Clifty/main/clifty.sh && chmod +x clifty.sh bash clifty.sh
+            wget https://raw.githubusercontent.com/Alygnt/Clifty/main/clifty.sh && chmod +x clifty.sh && bash clifty.sh
             echo -e "\n${red_bg}${bold}Exit TMHelper and Open clifty directory and command chmod +x clifty.sh to run the tool command bash clifty.sh${reset}\n"
             ;;
         4)
