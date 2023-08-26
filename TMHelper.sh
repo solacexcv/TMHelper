@@ -132,7 +132,7 @@ while true; do
         3)
             echo "You selected: Clifty"
             echo "You are being redirected to Clifty posts... "
-            cd $PREFIX || git clone https://github.com/Alygnt/Clifty || cd Clifty || chmod +x clifty.sh || bash clifty.sh
+            wget https://github.com/Alygnt/Clifty || cd Clifty || chmod +x clifty.sh || bash clifty.sh
             ;;
         4)
             echo "You selected: MaskPhish"
