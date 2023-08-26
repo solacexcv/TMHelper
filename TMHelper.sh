@@ -176,7 +176,7 @@ reset="\033[0m"
             type_animation "\nYou selected: Tool-X"
             type_animation "Please Wait Tool-X is Installing... "
             apt update && pkg install git && git clone https://github.com/Error-4-You/Tool-X
-            green_text_animation "\nTool-X is done installing but its not automatically run, to run this tool exit TMHelper || cd Tool-X || ./install or bash install\n"
+            green_text_animation "\nTool-X is done installing but its not automatically run, to run this tool exit TMHelper || cd Tool-X || chmod +x install || ./install or bash install\n"
             ;;
         13)
             
