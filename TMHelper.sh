@@ -4,9 +4,7 @@
 # Author: SaadMaqsood 
 # Site : learnTermux.tech
 # Date: August 14, 2023
-
-
-#!/bin/bash
+# /bin/bash
 
 function type_animation() {
     local text="$1"
