@@ -153,7 +153,7 @@ reset="\033[0m"
         6)
             type_animation "\nYou selected: Ubuntu Shell"
             type_animation "Please Wait Ubuntu Shell is Installing... "
-            xdg-open "https://github.com/MFDGaming/ubuntu-in-termux.git?&max-results=7"
+            pkg install proot -y && https://raw.githubusercontent.com/MFDGaming/ubuntu-in-termux/master/ubuntu.sh && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
             ;;
         7)
             type_animation "\nYou selected: Trace Exact Location"
