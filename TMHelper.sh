@@ -120,58 +120,58 @@ reset="\033[0m"
         exit 0
             ;;
         1)
-            echo "You selected: MaxPhisher"
-            green_text_animation "Please Wait MaxPhisher is Installing... "
+            type_animatiom "\nYou selected: MaxPhisher"
+            type_animation "Please Wait MaxPhisher is Installing... "
             wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py && python3 maxphisher.py
             ;;
         2)
-            echo "You selected: PyPhisher"
-            green_text_animation "Please Wait PyPhisher is Installing... "
+            type_animation "\nYou selected: PyPhisher"
+            type_animation "Please Wait PyPhisher is Installing... "
             wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && python3 pyphisher.py
             ;;
         3)
-            echo "You selected: Clifty"
-            green_text_animation "Please Wait Clifty is Installing"
+            type_animation "\nYou selected: Clifty"
+            type_animation "Please Wait Clifty is Installing"
             wget https://raw.githubusercontent.com/Alygnt/Clifty/main/clifty.sh && chmod +x clifty.sh && bash clifty.sh
             ;;
         4)
-            echo "You selected: MaskPhish"
-            echo "You are being redirected to MaskPhish posts... "
+            type_animation "\nYou selected: MaskPhish"
+            type_animation "You are being redirected to MaskPhish posts... "
             xdg-open "https://github.com/jaykali/maskphish?&max-results=7"
             ;;
         5)
-            echo "You selected: CamPhish"
-            echo "You are being redirected to CamPhish posts... "
+            type_animation "\nYou selected: CamPhish"
+            type_animation "\nYou are being redirected to CamPhish posts... "
             xdg-open "https://github.com/techchipnet/CamPhish?&max-results=7"
             ;;
         6)
-            echo "You selected: Ubuntu Shell"
-            echo "You are being redirected to Ubuntu Shell Gathering posts... "
+            type_animation "\nYou selected: Ubuntu Shell"
+            type_animation "You are being redirected to Ubuntu Shell Gathering posts... "
             xdg-open "https://github.com/MFDGaming/ubuntu-in-termux.git?&max-results=7"
             ;;
         7)
-            echo "You selected: Trace Exact Location"
-            echo "You are being redirected to Trace Exact Location posts... "
+            type_animation "\nYou selected: Trace Exact Location"
+            type_animation "You are being redirected to Trace Exact Location posts... "
             xdg-open "https://github.com/thewhiteh4t/seeker.git?&max-results=7"
             ;;
         8)
-            echo "You selected: Cam-Dumper"
-            echo "You are being redirected to Cam-Dumper posts... "
+            type_animation "\nYou selected: Cam-Dumper"
+            type_animation "You are being redirected to Cam-Dumper posts... "
             xdg-open "https://github.com/LiNuX-Mallu/CAM-DUMPER.git?&max-results=7"
             ;;
         9)
-            echo "You selected: Track-IP"
-            echo "You are being redirected to Track-IP posts... "
+            type_animation "\nYou selected: Track-IP"
+            type_animation "You are being redirected to Track-IP posts... "
             xdg-open "https://github.com/khansaad1275/track-ip?&max-results=7"
             ;;
         10)
-            echo "You selected: BruteForce"
-            echo "You are being redirected to BruteForce posts... "
+            type_animation "\nYou selected: BruteForce"
+            type_animation "You are being redirected to BruteForce posts... "
             xdg-open "https://github.com/STLP-TEAM/FB-Brute?&max-results=7"
             ;;
         11)
-            echo "You selected: Tool-X"
-            echo "You are being redirected to Tool-X posts... "
+            type_animation "\nYou selected: Tool-X"
+            type_animation "You are being redirected to Tool-X posts... "
             xdg-open "https://github.com/Error-4-You/Tool-X?&max-results=7"
             ;;
         13)
