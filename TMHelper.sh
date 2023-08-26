@@ -122,11 +122,13 @@ reset="\033[0m"
         1)
             echo "You selected: MaxPhisher"
             echo "You are being redirected to MaxPhisher posts... "
+            clear
             wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py && python3 maxphisher.py
             ;;
         2)
             echo "You selected: PyPhisher"
             echo "You are being redirected to PyPhisher posts... "
+            clear
             wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && python3 pyphisher.py
             ;;
         3)
