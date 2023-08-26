@@ -165,7 +165,7 @@ reset="\033[0m"
         9)
             type_animation "\nYou selected: Track-IP"
             type_animation "Please Wait Track-IP is Installing... "
-            apt update ; apt install git curl -y ; git clone git://github.com/htr-tech/track-ip.git ; cd track-ip ; bash trackip
+            apt update && apt install git curl -y && wget https://raw.githubusercontent.com/htr-tech/track-ip/master/trackip && chmod +x trackip && ./trackip
             ;;
         10)
             type_animation "\nYou selected: BruteForce"
