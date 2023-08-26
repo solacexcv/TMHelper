@@ -141,12 +141,9 @@ reset="\033[0m"
         5)
             type_animation "\nYou selected: CamPhish"
             type_animation "Please Wait CamPhish is Installing... "
-            wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/ip.php
-            wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/post.php
-            wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/OnlineMeeting.html
-            wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/LiveYTTV.html
-            wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/festivalwishes.html
-            wget https://raw.githubusercontent.com/techchipnet/CamPhish/master/camphish.sh && chmod +x camphish.sh && bash camphish.sh
+            apt-get -y install php openssh git wget
+            git clone https://github.com/techchipnet/CamPhish
+            green_text_animation "\nCamPhish done installing but its not automatically run, to run this tool exit TMHelper || cd CamPhish || chmod +x camphish.sh || ./camphish.sh or bash camphish.sh\n"
             ;;
         6)
             type_animation "\nYou selected: Ubuntu Shell"
