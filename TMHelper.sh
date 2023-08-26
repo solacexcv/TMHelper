@@ -122,7 +122,7 @@ while true; do
         1)
             echo "You selected: MaxPhisher"
             echo "You are being redirected to MaxPhisher posts... "
-            xdg-open "https://github.com/KasRoudra/MaxPhisher?&max-results=7"
+            wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py && python3 maxphisher.py
             ;;
         2)
             echo "You selected: PyPhisher"
