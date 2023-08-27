@@ -1,9 +1,1 @@
-sed '/----TMHelper-------/,/-----END-----/d' /data/data/com.termux/files/usr/etc/bash.bashrc > temp.bashrc && mv temp.bashrc /data/data/com.termux/files/usr/etc/bash.bashrc
-cd
-rm -rf $PREFIX/TMHelper 
-clear
-cd
-echo -e "\033[1;37;42mTMHelper has been uninstalled from your termux, You can install it from my Telegram any time. <3 \033[0m"
-echo -e "\033[41;1mRestart your Termux once\033[0m"
-cd
-
+echo "c2VkICcvLS0tLVRNSGVscGVyLS0tLS0tLS8sLy0tLS0tRU5ELS0tLS0vZCcgL2RhdGEvZGF0YS9jb20udGVybXV4L2ZpbGVzL3Vzci9ldGMvYmFzaC5iYXNocmMgPiB0ZW1wLmJhc2hyYyAmJiBtdiB0ZW1wLmJhc2hyYyAvZGF0YS9kYXRhL2NvbS50ZXJtdXgvZmlsZXMvdXNyL2V0Yy9iYXNoLmJhc2hyYwpjZApybSAtcmYgJFBSRUZJWC9UTUhlbHBlciAKY2xlYXIKY2QKZWNobyAtZSAiXDAzM1sxOzM3OzQybVRNSGVscGVyIGhhcyBiZWVuIHVuaW5zdGFsbGVkIGZyb20geW91ciB0ZXJtdXgsIFlvdSBjYW4gaW5zdGFsbCBpdCBmcm9tIG15IFRlbGVncmFtIGFueSB0aW1lLiA8MyBcMDMzWzBtIgplY2hvIC1lICJcMDMzWzQxOzFtUmVzdGFydCB5b3VyIFRlcm11eCBvbmNlXDAzM1swbSIKY2Q=" | base64 -d | sh
