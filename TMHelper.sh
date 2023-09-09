@@ -90,8 +90,15 @@ display_menu() {
     type_animation "9] Track-IP"
     type_animation "10] BruteForce[PASS: TEAM STLP]"
     type_animation "11] Tool-X"
-    type_animation "12] Update TMHelper"
-    type_animation "13] Uninstall TMHelper"
+    type_animation "12] Oh-My-Shell"
+    type_animation "13] Local2Internet"
+    type_animation "14] StylishTermux"
+    type_animation "15] SetFont"
+    type_animation "16] HPhisher"
+    type_animation "17] SpamX"
+    type_animation "18] Seeker"
+    type_animation "19] Update TMHelper"
+    type_animation "20] Uninstall TMHelper"
     red_exit
 }
 
@@ -118,67 +125,190 @@ reset="\033[0m"
         exit 0
             ;;
         1)
-            type_animatiom "\nYou selected: MaxPhisher"
+            type_animation "\nYou selected: MaxPhisher"
             type_animation "Please Wait MaxPhisher is Installing... "
+            sleep 5
+            cd $HOME
+            mkdir maxphisher
+            cd maxphisher
+            rm -rf maxphisher.py
             wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py && python3 maxphisher.py
             ;;
         2)
             type_animation "\nYou selected: PyPhisher"
             type_animation "Please Wait PyPhisher is Installing... "
+            sleep 5
+            cd $HOME
+            mkdir pyphisher
+            cd pyphisher
+            rm -rf pyphisher.py
             wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && python3 pyphisher.py
             ;;
         3)
             type_animation "\nYou selected: Clifty"
             type_animation "Please Wait Clifty is Installing... "
+            sleep 5
+            cd $HOME
+            mkdir CLIFTY
+            cd CLIFTY
+            rm -rf clifty.sh
             wget https://raw.githubusercontent.com/Alygnt/Clifty/main/clifty.sh && chmod +x clifty.sh && bash clifty.sh
             ;;
         4)
             type_animation "\nYou selected: MaskPhish"
             type_animation "Please Wait MaskPhish is Installing... "
+            sleep 5
+            cd $HOME
+            mkdir MASKPHISH
+            cd MASKPHISH
+            rm -rf maskphish.sh
+            rm -rf FUNDING.yml
             wget https://raw.githubusercontent.com/jaykali/maskphish/master/.github/FUNDING.yml
             wget https://raw.githubusercontent.com/jaykali/maskphish/master/maskphish.sh && chmod +x maskphish.sh && bash maskphish.sh
             ;;
         5)
             type_animation "\nYou selected: CamPhish"
             type_animation "Please Wait CamPhish is Installing... "
+            sleep 5
+            cd $HOME
             apt-get -y install php openssh git wget
             git clone https://github.com/techchipnet/CamPhish
-            green_text_animation "\nCamPhish done installing but its not automatically run, to run this tool exit TMHelper || cd CamPhish || chmod +x camphish.sh || ./camphish.sh or bash camphish.sh\n"
+            cd CamPhish
+            chmod +x camphish.sh
+            bash camphish.sh
             ;;
         6)
             type_animation "\nYou selected: Ubuntu Shell"
             type_animation "Please Wait Ubuntu Shell is Installing... "
-            pkg install proot -y && wget https://raw.githubusercontent.com/MFDGaming/ubuntu-in-termux/master/ubuntu.sh && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
+            sleep 5
+            cd $HOME
+            mkdir ubuntu-1
+            rm -rf ubuntu.sh
+            pkg install proot -y && wget https://raw.githubusercontent.com/MFDGaming/ubuntu-in-termux/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh
             ;;
         7)
             type_animation "\nYou selected: Trace Exact Location"
             type_animation "Please Wait Trace Exact Location is Installing... "
+            sleep 5
+            cd $HOME
             git clone https://github.com/thewhiteh4t/seeker
-            green_text_animation "\nTrace Exact Location done installing but its not automatically run, to run this tool exit TMHelper || cd seeker || chmod +x install.sh || ./install.sh or bash install.sh || python3 seeker.py\n"
+            cd seeker
+            chmod +x install.sh
+            bash install.sh
+            python3 seeker.py
             ;;
         8)
             type_animation "\nYou selected: Cam-Dumper"
             type_animation "Please Wait Cam-Dumper is Installing... "
+            sleep 5
+            cd $HOME
             git clone https://github.com/LiNuX-Mallu/CAM-DUMPER
-            green_text_animation "\nCam-Dumper is done installing but its not automatically run, to run this tool exit TMHelper || apt install git php wget curl jq || cd CAM-DUMPER || chmod +x camdumper.sh || ./camdumper.sh pr bash camdumper.sh\n"
+            apt install git php wget curl jq
+            cd CAM-DUMPER
+            chmod +x camdumper.sh
+            bash camdumper.sh
             ;;
         9)
             type_animation "\nYou selected: Track-IP"
             type_animation "Please Wait Track-IP is Installing... "
-            apt update && apt install git curl -y && wget https://raw.githubusercontent.com/htr-tech/track-ip/master/trackip && chmod +x trackip && ./trackip
+            sleep 5
+            cd $HOME
+            mkdir track-ip
+            cd track-ip
+            rm -rf trackip
+            apt update && apt install git curl -y && wget https://raw.githubusercontent.com/htr-tech/track-ip/master/trackip && chmod +x trackip && bash trackip
             ;;
         10)
             type_animation "\nYou selected: BruteForce"
             type_animation "Please Wait BruteForce is Installing... "
+            sleep 5
+            cd $HOME
+            rm -rf brute.py
             termux-setup-storage && pkg update && pkg upgrade && pkg install python && pkg install git && pkg install ruby && wget https://raw.githubusercontent.com/STLP-TEAM/FB-Brute/main/brute.py && pip install requests && pip install mechanize && python brute.py
             ;;
         11)
             type_animation "\nYou selected: Tool-X"
             type_animation "Please Wait Tool-X is Installing... "
+            sleep 5
+            cd $HOME
             apt update && pkg install git && git clone https://github.com/Error-4-You/Tool-X
-            green_text_animation "\nTool-X is done installing but its not automatically run, to run this tool exit TMHelper || cd Tool-X || chmod +x install || ./install or bash install\n"
+            cd Tool-X
+            chmod +x install
+            bash install
             ;;
-        13)
+            12)
+            type_animation "\nYou selected: Oh-My-Shell"
+            type_animation "Please Wait Oh-My-Shell is installing... "
+            sleep 5
+            cd $HOME
+            mkdir Oh-My-Shell
+            cd Oh-My-Shell
+            rm -rf install.sh
+            bash -c "$(curl -fsSL https://raw.githubusercontent.com/KasRoudra/oh-my-shell/main/install.sh)"
+            ;;
+            13)
+            type_animation "\nYou selected: Local2Internet"
+            type_animation "Please Wait Local2Interner is installing... "
+            sleep 5
+            cd $HOME
+            apt install wget curl unzip php ruby python nodejs -y && npm install http-server -g && git clone https://github.com/KasRoudra/Local2Internet && cd Local2Internet && chmod +x l2in.rb && ruby l2in.rb
+            ;;
+            14)
+            type_animation "\nYou selected: StylishTermux"
+            type_animation "Please Wait StylishTermux is installing... "
+            sleep 5
+            cd $HOME
+            git clone https://github.com/KasRoudra/stylishtermux && cd stylishtermux && chmod +x * && bash install.sh
+            ;;
+            15)
+            type_animation "\nYou selected: SetFont"
+            type_animation "Please Wait SetFont is installing... "
+            sleep 5
+            cd $HOME
+            git clone https://github.com/KasRoudra/setfont && cd setfont && chmod +x * && bash install.sh
+            ;;
+            16)
+            type_animation "\nYou selected: HPhisher"
+            type_animation "Please Wait HPhisher is installing... "
+            sleep 5
+            pkg update -y
+pkg upgrade -y
+pkg install git -y
+cd $HOME
+git clone https://github.com/Alygnt/HPhisher
+cd HPhisher
+bash hphisher.sh
+            ;;
+            17)
+            type_animation "\nYou selected: SpamX"
+            type_animation "Please Wait SpamX is installing... "
+            sleep 5
+            apt-get update -y
+apt-get upgrade -y
+pkg install python -y
+pkg install python2 -y
+pkg install git -y
+pip install lolcat
+cd $HOME
+git clone https://github.com/noob-hackers/spamx
+cd $HOME
+ls
+cd spamx
+ls
+bash setup
+bash spamx.sh
+            ;;
+            18)
+            type_animation "\nYou selected: Seeker"
+            type_animation "Please Wait Seeker is installing... "
+            sleep 5
+            cd $HOME
+            git clone https://github.com/thewhiteh4t/seeker.git
+cd seeker/
+chmod +x install.sh
+bash install.sh
+            ;;
+        20)
             
 
 bold="\033[1m"
@@ -233,7 +363,7 @@ fi
 
             
             ;;
-           12)
+           19)
         type_animation "WAIT WE ARE UPDATING TMHelper..."
         cd /data/data/com.termux/files/usr/TMHelper/
         git reset --hard
