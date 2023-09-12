@@ -97,8 +97,9 @@ display_menu() {
     type_animation "16] HPhisher"
     type_animation "17] SpamX"
     type_animation "18] Seeker"
-    type_animation "19] Update TMHelper"
-    type_animation "20] Uninstall TMHelper"
+    type_animation "19] Banner-generator"
+    type_animation "20] Update TMHelper"
+    type_animation "21] Uninstall TMHelper"
     red_exit
 }
 
@@ -128,6 +129,7 @@ reset="\033[0m"
             type_animation "\nYou selected: MaxPhisher"
             type_animation "Please Wait MaxPhisher is Installing... "
             sleep 5
+            clear
             cd $HOME
             mkdir maxphisher
             cd maxphisher
@@ -308,7 +310,21 @@ cd seeker/
 chmod +x install.sh
 bash install.sh
             ;;
-        20)
+            19)
+            type_animation "\nYou selected: banner-generator"
+            type_animation "Please wait banner-generator is installing... "
+            sleep 5
+            clear
+            cd $HOME
+            apt install python2
+            git clone https://github.com/KasRoudra/banner-generator
+            cd banner-generator
+            chmod +x *
+            bash requirements.sh
+            python2 generator.py
+            ;;
+            
+        21)
             
 
 bold="\033[1m"
@@ -363,7 +379,7 @@ fi
 
             
             ;;
-           19)
+           20)
         type_animation "WAIT WE ARE UPDATING TMHelper..."
         cd /data/data/com.termux/files/usr/TMHelper/
         git reset --hard
