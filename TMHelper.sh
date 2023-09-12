@@ -140,6 +140,7 @@ reset="\033[0m"
             type_animation "\nYou selected: PyPhisher"
             type_animation "Please Wait PyPhisher is Installing... "
             sleep 5
+            clear
             cd $HOME
             mkdir pyphisher
             cd pyphisher
@@ -150,6 +151,7 @@ reset="\033[0m"
             type_animation "\nYou selected: Clifty"
             type_animation "Please Wait Clifty is Installing... "
             sleep 5
+            clear
             cd $HOME
             mkdir CLIFTY
             cd CLIFTY
@@ -160,6 +162,7 @@ reset="\033[0m"
             type_animation "\nYou selected: MaskPhish"
             type_animation "Please Wait MaskPhish is Installing... "
             sleep 5
+            clear
             cd $HOME
             mkdir MASKPHISH
             cd MASKPHISH
@@ -172,6 +175,7 @@ reset="\033[0m"
             type_animation "\nYou selected: CamPhish"
             type_animation "Please Wait CamPhish is Installing... "
             sleep 5
+            clear
             cd $HOME
             apt-get -y install php openssh git wget
             git clone https://github.com/techchipnet/CamPhish
@@ -183,6 +187,7 @@ reset="\033[0m"
             type_animation "\nYou selected: Ubuntu Shell"
             type_animation "Please Wait Ubuntu Shell is Installing... "
             sleep 5
+            clear
             cd $HOME
             mkdir ubuntu-1
             rm -rf ubuntu.sh
@@ -192,6 +197,7 @@ reset="\033[0m"
             type_animation "\nYou selected: Trace Exact Location"
             type_animation "Please Wait Trace Exact Location is Installing... "
             sleep 5
+            clear
             cd $HOME
             git clone https://github.com/thewhiteh4t/seeker
             cd seeker
@@ -203,6 +209,7 @@ reset="\033[0m"
             type_animation "\nYou selected: Cam-Dumper"
             type_animation "Please Wait Cam-Dumper is Installing... "
             sleep 5
+            clear
             cd $HOME
             git clone https://github.com/LiNuX-Mallu/CAM-DUMPER
             apt install git php wget curl jq
@@ -214,6 +221,7 @@ reset="\033[0m"
             type_animation "\nYou selected: Track-IP"
             type_animation "Please Wait Track-IP is Installing... "
             sleep 5
+            clear
             cd $HOME
             mkdir track-ip
             cd track-ip
@@ -224,6 +232,7 @@ reset="\033[0m"
             type_animation "\nYou selected: BruteForce"
             type_animation "Please Wait BruteForce is Installing... "
             sleep 5
+            clear
             cd $HOME
             rm -rf brute.py
             termux-setup-storage && pkg update && pkg upgrade && pkg install python && pkg install git && pkg install ruby && wget https://raw.githubusercontent.com/STLP-TEAM/FB-Brute/main/brute.py && pip install requests && pip install mechanize && python brute.py
@@ -232,6 +241,7 @@ reset="\033[0m"
             type_animation "\nYou selected: Tool-X"
             type_animation "Please Wait Tool-X is Installing... "
             sleep 5
+            clear
             cd $HOME
             apt update && pkg install git && git clone https://github.com/Error-4-You/Tool-X
             cd Tool-X
@@ -242,6 +252,7 @@ reset="\033[0m"
             type_animation "\nYou selected: Oh-My-Shell"
             type_animation "Please Wait Oh-My-Shell is installing... "
             sleep 5
+            clear
             cd $HOME
             mkdir Oh-My-Shell
             cd Oh-My-Shell
@@ -252,6 +263,7 @@ reset="\033[0m"
             type_animation "\nYou selected: Local2Internet"
             type_animation "Please Wait Local2Interner is installing... "
             sleep 5
+            clear
             cd $HOME
             apt install wget curl unzip php ruby python nodejs -y && npm install http-server -g && git clone https://github.com/KasRoudra/Local2Internet && cd Local2Internet && chmod +x l2in.rb && ruby l2in.rb
             ;;
@@ -266,6 +278,7 @@ reset="\033[0m"
             type_animation "\nYou selected: SetFont"
             type_animation "Please Wait SetFont is installing... "
             sleep 5
+            clear
             cd $HOME
             git clone https://github.com/KasRoudra/setfont && cd setfont && chmod +x * && bash install.sh
             ;;
@@ -273,6 +286,7 @@ reset="\033[0m"
             type_animation "\nYou selected: HPhisher"
             type_animation "Please Wait HPhisher is installing... "
             sleep 5
+            clear
             pkg update -y
 pkg upgrade -y
 pkg install git -y
@@ -285,6 +299,7 @@ bash hphisher.sh
             type_animation "\nYou selected: SpamX"
             type_animation "Please Wait SpamX is installing... "
             sleep 5
+            clear
             apt-get update -y
 apt-get upgrade -y
 pkg install python -y
@@ -304,6 +319,7 @@ bash spamx.sh
             type_animation "\nYou selected: Seeker"
             type_animation "Please Wait Seeker is installing... "
             sleep 5
+            clear
             cd $HOME
             git clone https://github.com/thewhiteh4t/seeker.git
 cd seeker/
