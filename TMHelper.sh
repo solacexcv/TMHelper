@@ -347,10 +347,10 @@ bash install.sh
             clear
 $HOME
     cd
-mkdir kali-linux
-cd kali-linux
-pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali.sh | bash
-bash start-kali.sh
+    cd $PREFIX
+    cd TMHelper
+    chmod +x kali.sh
+    bash kali.sh
 ;;
         22)
             
