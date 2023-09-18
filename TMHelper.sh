@@ -322,7 +322,7 @@ bash spamx.sh
             clear
             cd $HOME
             git clone https://github.com/thewhiteh4t/seeker.git
-cd seeker/
+            cd seeker
 chmod +x install.sh
 bash install.sh
             ;;
