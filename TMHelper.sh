@@ -99,8 +99,8 @@ display_menu() {
     type_animation "18] Seeker"
     type_animation "19] Banner-generator"
     type_animation "20] Kali-Linux"
-    type_animation "20] Update TMHelper"
-    type_animation "21] Uninstall TMHelper"
+    type_animation "21] Update TMHelper"
+    type_animation "22] Uninstall TMHelper"
     red_exit
 }
 
