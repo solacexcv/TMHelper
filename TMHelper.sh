@@ -346,37 +346,11 @@ bash install.sh
             sleep 5
             clear
 $HOME
-ku_i() {
-type_animation "1] INSTALL KALI"
-type_animation "2] UNINSTALL KALI"
-
-
-while true; do
-    ku_i
-    green_text_animation ">> Select an Option --> "
-    echo -n " "
-    read choiceskali
-
-    case $choiceskali in
-    1)
     cd
 mkdir kali-linux
 cd kali-linux
 pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali.sh | bash
 bash start-kali.sh
-;;
-2)
-cd
-cd kali-linux
-curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Uninstall/Kali/UNI-kali.sh | bash
-bash UNI-kali.sh
-*)
-    echo "Invalid choice. Please select a valid option."
-    ;;
-esac
-done
-}
-
 ;;
         22)
             
