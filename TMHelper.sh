@@ -328,6 +328,7 @@ bash spamx.sh
             cd seeker
 chmod +x install.sh
 bash install.sh
+python3 seeker.py
             ;;
             19)
             type_animation "\nYou selected: banner-generator"
