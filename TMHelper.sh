@@ -347,6 +347,8 @@ bash install.sh
             clear
 $HOME
     cd
+    cd kali-linux
+    bash start-kali.sh
     cd $PREFIX
     cd TMHelper
     chmod +x kali.sh
