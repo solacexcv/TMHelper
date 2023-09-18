@@ -323,7 +323,7 @@ bash spamx.sh
             clear
             cd $HOME
             cd seeker
-            bash seeker.py
+            python3 seeker.py
             git clone https://github.com/thewhiteh4t/seeker.git
             cd seeker
 chmod +x install.sh
