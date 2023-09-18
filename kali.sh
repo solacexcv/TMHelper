@@ -4,7 +4,9 @@
 # Author: Solacexcv
 # Date: August 14, 2023
 # /bin/bash
-
+function red_exit() {
+    echo -e "\033[1;31m0] Exit\033[0m"
+}
 
 function type_animation() {
     local text="$1"
@@ -27,6 +29,7 @@ function green_text_animation() {
     type_animation "Please select an option:"
     type_animation "1] INSTALL KALI"
     type_animation "2] UNINSTALL KALI"
+    red_exit
 
 
 
@@ -57,6 +60,10 @@ bash start-kali.sh
         rm -rf kali-linux
         echo "done"
         cd
+        ;;
+        0)
+        type_animation "\nexited successfuly"
+        exit 0
         ;;
     *)
             echo "Invalid choice. Please select a valid option."
