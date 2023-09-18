@@ -98,6 +98,7 @@ display_menu() {
     type_animation "17] SpamX"
     type_animation "18] Seeker"
     type_animation "19] Banner-generator"
+    type_animation "20] Kali-Linux"
     type_animation "20] Update TMHelper"
     type_animation "21] Uninstall TMHelper"
     red_exit
@@ -339,8 +340,22 @@ bash install.sh
             bash requirements.sh
             python2 generator.py
             ;;
-            
-        21)
+            20)
+            type_animation "\nYou selected: Kali-Linux"
+            type_animation "Please wait Kali-Linux is installing... "
+            sleep 5
+            clear
+$HOME
+pkg update -y
+pkg install curl -y
+proot tar -y
+mkdir kali-linux
+cd kali-linux
+curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali.sh
+chmod +x kali.sh
+bash kali.sh
+;;
+        22)
             
 
 bold="\033[1m"
@@ -395,7 +410,7 @@ fi
 
             
             ;;
-           20)
+           21)
         type_animation "WAIT WE ARE UPDATING TMHelper..."
         cd /data/data/com.termux/files/usr/TMHelper/
         git reset --hard
