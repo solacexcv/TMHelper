@@ -322,6 +322,8 @@ bash spamx.sh
             sleep 5
             clear
             cd $HOME
+            cd seeker
+            bash seeker.py
             git clone https://github.com/thewhiteh4t/seeker.git
             cd seeker
 chmod +x install.sh
