@@ -346,14 +346,7 @@ bash install.sh
             sleep 5
             clear
 $HOME
-pkg update -y
-pkg install curl -y
-proot tar -y
-mkdir kali-linux
-cd kali-linux
-curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali.sh
-chmod +x kali.sh
-bash kali.sh
+pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali.sh | bash
 ;;
         22)
             
