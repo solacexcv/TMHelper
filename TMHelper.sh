@@ -349,7 +349,7 @@ $HOME
 ku_i() {
 type_animation "1] INSTALL KALI"
 type_animation "2] UNINSTALL KALI"
-}
+
 
 while true; do
     ku_i
@@ -375,6 +375,7 @@ bash UNI-kali.sh
     ;;
 esac
 done
+}
 
 ;;
         22)
